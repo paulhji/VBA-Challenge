@@ -31,7 +31,6 @@ Sub StockData():
         j = 2
         
         LastRowA = ws.Cells(Rows.Count, 1).End(xlUp).Row
-        'MsgBox ("Last row in column A is " & LastRowA)
         
         For i = 2 To LastRowA
         
@@ -117,7 +116,6 @@ Sub StockData():
             ws.Cells(4, 17).Value = Format(GreatVol, "Scientific")
             
             Next i
-                
         
     Next ws
 
